@@ -9,12 +9,13 @@ const a = (light: string, dark?: string): Asset =>
 
 const Assets = {
 	AWS: a('aws.svg'),
+	AWSCDK: a('cdk.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
 	Django: a('django.svg'),
-	FastApi: a('fastapi'),
+	FastApi: a('fastapi.svg'),
 	Flask: a('flask.svg'),
 	Go: a('go.svg'),
 	Kafka: a('kafka.svg'),
@@ -70,7 +71,20 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	KAIST: a('kaist.png'),
+	PRISM39: a('prism39.ico'),
+	AKA: a('aka.svg'),
+	Giboo: a('giboo.png'),
+	ProfilePic: a('profile.jpg'),
+	Jenkins: a('jenkins.png'),
+	Git: a('git.png'),
+	Linux: a('linux.png'),
+	Locust: a('locust.jpg'),
+	Pytest: a('pytest.png'),
+	Playwright: a('playwright.png'),
+	Mapnotes: a('mapnotes_dark.png'),
+	MapnotesDemo: a('mapnotesDemo.gif')
 };
 
 export default Assets;

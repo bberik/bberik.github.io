@@ -1,41 +1,46 @@
 import { Platform } from '$lib/types';
+import type { ProfilePicture } from '$lib/types';
 import { getSkills } from './skills';
+import Assets from './assets';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Berik';
 
-export const lastName = 'LastName';
+export const lastName = 'Bazarbayev';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'Backend developer and DevOps engineer with a passion for building scalable data systems, automating workflows, and optimizing cloud infrastructure.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/bberik' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/berik-bazarbayev/'
 	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
+	// {
+	// 	platform: Platform.Twitter,
+	// 	link: 'https://twitter.com/'
+	// },
+	// {
+	// 	platform: Platform.StackOverflow,
+	// 	link: 'https://stackoverflow.com/'
+	// },
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'berik_bazarbayev@icloud.com'
 	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
+	// {
+	// 	platform: Platform.Youtube,
+	// 	link: 'https://www.youtube.com'
+	// },
+	// {
+	// 	platform: Platform.Facebook,
+	// 	link: 'https://www.facebook.com'
+	// }
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const ProfilePic: ProfilePicture = {
+	url: Assets.ProfilePic,
+	altText: "profile picture"
+  };

@@ -9,6 +9,8 @@
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
 
+	import ProfilePic from '$lib/components/ProfilePic/ProfilePic.svelte';
+
 	const isEmail = (email: string): boolean => {
 		const reg =
 			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -41,5 +43,6 @@
 			{/each}
 		</div>
 	</div>
-	<Carrousel items={skills ?? skillsItems} />
+	<!-- <Carrousel items={skills ?? skillsItems} /> -->
+	<ProfilePic />
 </div>
