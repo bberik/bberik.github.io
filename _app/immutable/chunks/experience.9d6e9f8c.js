@@ -1,4 +1,4 @@
-import{A as e}from"./index.2a2afa6e.js";import{g as t}from"./skills.019c5026.js";import{C as a}from"./types.1ebf2f37.js";const s=[{slug:"giboo",company:"Giboo",description:`
+import{A as e}from"./index.33dca8fb.js";import{g as t}from"./skills.0bae8365.js";import{C as a}from"./types.1ebf2f37.js";const s=[{slug:"giboo",company:"Giboo",description:`
 - **Orchestrated** end-to-end migration of production databases using AWS DMS, automating schema replication, dependency-aware data syncing, and cut-over workflows. **Reduced downtime by 85%** and eliminated data loss risks.
 - **Built** a high-concurrency crawler pipeline (**Scrapy + Playwright**) to automate image extraction, scraping images from **500,000+ websites**.
 - **Designed** and automated a fault-tolerant big data pipeline using **AWS Step Functions** and **AWS Glue**, cutting manual monitoring and orchestration by **25 hours/month**.
