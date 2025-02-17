@@ -71,4 +71,4 @@ if you did all the above `CORRECTLY`, and no workflow was launched, try to push 
 
 ## Known issues:
 
-- Svelte no longer support `node 14`, use a newer version instead.
+- Svelte no longer support `node 14`, use a newer version instead
