@@ -1,6 +1,7 @@
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from '../types';
+import { base } from '$app/paths';
 
 export const items: Array<Project> = [
 	{
@@ -26,7 +27,7 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: '/logos/mapnotesDemo.gif'
+				src: `${base}/logos/mapnotesDemo.gif`
 			}
 		]
 	}
